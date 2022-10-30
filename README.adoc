@@ -1,0 +1,14 @@
+= JPA Sandbox
+
+:toc:
+:toclevels: 3
+:source-highlighter: highlight.js
+
+*Objective :* create technical micro situation to study JPA advanced configuration.
+
+== First case : Embedded/Embeddable
+
+[plantuml,target=entiy-relationship-1,format=png]
+....
+SpecificReportEntity }|-- ReportEntity
+....
